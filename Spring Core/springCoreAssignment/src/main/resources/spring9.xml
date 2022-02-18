@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+    <bean id="LifeCycle" class="springCoreAssignment.Qun9.BeanLifeCycle">
+        <property name="id" value="75"/>
+        <property name="name" value="Superman"/>
+    </bean>
+    <bean id="LifeCycle1" class="springCoreAssignment.Qun9.BeanLifeCycle">
+        <property name="id" value="32"/>
+        <property name="name" value="Thanos"/>
+    </bean>
+</beans>

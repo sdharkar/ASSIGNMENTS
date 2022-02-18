@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+    <bean id="studentRequired" class="springCoreAssignment.Qun5.Student">
+        <property name="name" value="Vivek"/>
+    </bean>
+
+    <bean id="studentResource" class="springCoreAssignment.Qun5.Student">
+        <property name="name" value="Vivek"/>
+        <property name="age" value="20"/>
+    </bean>
+    <bean id="school" class = "springCoreAssignment.Qun5.School">
+        <property name="name" value="Kumar"/>
+        <property name="TotalStudent" value="90"/>
+
+    </bean>
+
+    <bean id="school1" class = "springCoreAssignment.Qun5.School">
+        <property name="name" value="Vivek"/>
+        <property name="TotalStudent" value="300"/>
+
+    </bean>
+    <bean id="school2" class = "springCoreAssignment.Qun5.School">
+        <property name="name" value="ASP"/>
+        <property name="TotalStudent" value="220"/>
+
+    </bean>
+
+    <bean id="school3" class = "springCoreAssignment.Qun5.School">
+        <property name="name" value="NARY"/>
+        <property name="TotalStudent" value="360"/>
+
+    </bean>
+
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+
+
+</beans>
