@@ -1,0 +1,22 @@
+h1{
+    background-color:rgb(22, 176, 236);
+    padding-bottom: 20px;
+}
+
+div.one{
+    background-color: rgb(145, 205, 221);
+    margin-top: 0%;
+}
+p.a2{
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+
+p.a3{
+    background-color: aquamarine;
+    padding-bottom: 30px;
+}
+
+p.a4{
+    padding-bottom: 30px;
+}

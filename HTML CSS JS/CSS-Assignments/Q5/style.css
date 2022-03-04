@@ -1,0 +1,10 @@
+table,th{
+  border: 1px solid;
+}
+th.a1{
+  text-decoration-thickness:10;
+}
+
+th.a2{
+  text-decoration-thickness:10;
+}

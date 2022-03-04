@@ -1,0 +1,9 @@
+table,th,tr{
+    border: 1px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th.a1{
+    background-color: green;
+    color: white;
+}

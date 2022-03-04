@@ -1,0 +1,11 @@
+div{
+    background-color: whitesmoke;
+    border:2px solid red;
+    border-spacing: 10px;
+    outline: 4px dashed green;
+
+}
+
+span{
+    font-weight: bolder;
+}
