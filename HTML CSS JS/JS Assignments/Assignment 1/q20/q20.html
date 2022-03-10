@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="q20.css">
+        
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <div class="pizza">
+            <H1>Order Your Favourite Pizza🍕</H1>
+            <form class="order" action="index.html" method="post">
+                <label for="name" name="name">Name:</label>
+                <input type="text" name="name" placeholder="name" id="name">
+                <br><br>
+                <label for="email">Email :</label>
+                <input type="email" name="email" placeholder="email" id="email">
+                <br><br>
+                <p>Toppings :</p>
+                <label for="ExtCheese">Extra Cheese:</label>
+                <input type="checkbox" name="ExtCheese" value="ExtCheese" id="ExtCheese">
+                <label for="pepperoni">Pepperoni:</label>
+                <input type="checkbox" name="pepperoni" value="pepperoni" id="pepperoni">
+                <label for="papper">Papper:</label>
+                <input type="checkbox" name="papper" value="papper" id="papper">
+                <label for="Bacon">Bacon:</label>
+                <input type="checkbox" name="Bacon" value="Bacon" id="Bacon">
+                <label for="Mushrooms">Mushrooms:</label>
+                <input type="checkbox" name="Mushrooms" value="Mushrooms" id="Mushrooms">
+                <br><br>
+                <label for="typeOrder">How do yot want to get your pizza :</label>
+                <br><br>
+                <label for="delivery">Home Delivery :</label>
+                <input type="radio" name="delivery" value="delivery" id="delivery">
+                <label for="Pickup">Pickup:</label>
+                <input type="radio" name="Pickup" value="Pickup" id="Pickup">
+                <br><br>
+                <label for="tip">Tip ?</label>
+                <select class="tip" name="tip" id="tip">
+                <option value="t1">No</option>
+                <option value="t2">1%</option>
+                <option value="t3">5%</option>
+                <option value="t4">10%</option>
+                <option value="t5">15%</option>
+                <option value="t6">20%</option>
+                <option value="t7">25%</option>
+                </select>
+                <br><br>
+                <hr>
+                <label for="address">Address:</label><br>
+                <textarea name="address" rows="8" cols="80" placeholder="Enter your address for delivery" required id="address"></textarea>
+                <br><br>
+                <button onclick="pizza()">Submit it</button>
+            </form>
+        </div>
+        
+        <script type="text/javascript" src="q20.js" charset="utf-8"></script>
+    </body>
+</html>

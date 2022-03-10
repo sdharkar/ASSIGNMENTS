@@ -1,0 +1,39 @@
+html,body{
+    padding: 10px;
+    background-color: #ECD393;
+    border:5px solid #A5331D;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    margin: 5px solid #597525;
+    background-color: #EFF0EA;
+    border:5px solid #597525;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+label{
+    padding: 5px;
+}
+
+textarea{
+    background-color: #EFF0EA;
+    border:5px solid #597525;
+}
+
+h1{
+    color: #F54D3D;
+}
+
+button{
+    margin: 5px solid #597525;
+    background-color: #EFF0EA;
+    border:5px solid #597525;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+
